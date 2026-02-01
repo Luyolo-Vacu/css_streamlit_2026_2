@@ -51,7 +51,7 @@ if menu == "Researcher Profile":
     """)
 
     st.image(
-        "https://https://www.itheoc.uni-stuttgart.de/img/computational_chemistry.jpg?__scale=w:1000,h:1000,q:100,t:3.jpg",
+        "https://www.itheoc.uni-stuttgart.de/img/computational_chemistry.jpg?__scale=w:1000,h:1000,q:100,t:3.jpg",
         caption="Computational & Molecular Research"
     )
     
@@ -59,4 +59,5 @@ elif menu == "Contact":
         # Add a contact section
         st.header("Contact Information")
         email = "luyolovacu97@gmail.com"
+
         st.write(f"You can reach me at {email}.")
